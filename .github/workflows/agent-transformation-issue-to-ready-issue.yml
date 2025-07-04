@@ -47,7 +47,18 @@ on:
   #  secrets:
   #    PERSONAL_ACCESS_TOKEN:
   #      required: false
-  #    CHATGPT_API_SECRET_KEY:
+  #    -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+CHATGPT_API_SECRET_KEY
+-----BEGIN PGP SIGNATURE-----
+
+iH4EARYIACYfHExtb3JhNTg0IDxMbW9yYTU4NEBpY2xvdWQuY29tPgUCaGeXsgAK
+CRCiTS3Xd8+bGx2oAQDy2ImLRInw6vnhE+RDmh6XzHxiaYCR2QqZtE+R+rG63QEA
+5QnKfyfzZhwq1yRz+lJUWXPMD4Y17lbgckpYs/4pzAI=
+=bMK5
+-----END PGP SIGNATURE-----
+:
   #      required: true
   schedule:
     #- cron: '34 4 */28 * *' # schedule-1
